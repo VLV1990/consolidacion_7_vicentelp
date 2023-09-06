@@ -5,6 +5,7 @@ class Laboratorio(models.Model):
     ciudad = models.CharField(max_length=100, default='')
     pais = models.CharField(max_length=100, default='')
 
+
     def __str__(self):
         return self.nombre
 
